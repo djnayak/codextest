@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
  class prog_3 
 {
 
