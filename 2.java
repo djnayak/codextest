@@ -17,7 +17,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 		{
 		if(f0%2==0)
 		 {
-			sum = sum + 0;
+			sum = sum + f0;
 		 }
 			temp=f0;
 			f0=f1;
