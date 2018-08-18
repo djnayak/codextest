@@ -1,12 +1,10 @@
-import java.util.Scanner;
+
  class prog_2 
 {
 	public static void main (String[] args)
 	{
 		int size=4000000;
 		int f0=0,f1=1,temp=0;
-		Scanner reader = new Scanner (System.in);
-		size = reader.nextInt();
 		int i;
 		for(i=0;i<size;i++)
 		{
