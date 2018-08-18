@@ -3,9 +3,8 @@ import java.util.Scanner;
 {
 	public static void main (String[] args)
 	{
-		int n,sum_of_square=0,sum=0;
+		int n=100,sum_of_square=0,sum=0;
 		Scanner reader = new Scanner (System.in);
-		n = reader.nextInt();
 		int i;
 		for(i=1;i<=n;i++)
 		{
