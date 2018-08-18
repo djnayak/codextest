@@ -3,7 +3,7 @@ import java.util.Scanner;
 {
 	public static void main (String[] args)
 	{
-		int size;
+		int size=4000000;
 		int f0=0,f1=1,temp=0;
 		Scanner reader = new Scanner (System.in);
 		size = reader.nextInt();
@@ -12,11 +12,12 @@ import java.util.Scanner;
 		{
 		if(f0%2==0)
 		 {
-			System.out.println(f0);
+			sum = sum + 0;
 		 }
 			temp=f0;
 			f0=f1;
 			f1=temp+f1;	
 		}
+		System.out.println(sum);
 	}
 }
