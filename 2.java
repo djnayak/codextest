@@ -5,7 +5,7 @@
 	{
 		int size=4000000;
 		int f0=0,f1=1,temp=0;
-		int i;
+		int i,sum=0;
 		for(i=0;i<size;i++)
 		{
 		if(f0%2==0)
