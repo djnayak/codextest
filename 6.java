@@ -1,10 +1,9 @@
-import java.util.Scanner;
+
  class prog_6 
 {
 	public static void main (String[] args)
 	{
 		int n=100,sum_of_square=0,sum=0;
-		Scanner reader = new Scanner (System.in);
 		int i;
 		for(i=1;i<=n;i++)
 		{
