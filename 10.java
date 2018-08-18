@@ -3,9 +3,7 @@ import java.util.Scanner;
 {
 public static void main(String args[]){
     long sum=0;
-int n;
-Scanner sc = new Scanner (System.in);
-n=sc.nextInt();
+int n=2000000;
     outerloop:
     for(int i=2;i<n;i++){
         for(int j=2;j<=i;j++){
