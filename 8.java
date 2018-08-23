@@ -29,7 +29,7 @@ class prog_8 {
 
  public static void main(String[] args) {
 
-		System.out.println(new p008().run());
+		System.out.println(new prog_8().run());
 	}
 
 
@@ -50,4 +50,3 @@ class prog_8 {
 
 
 }
-
